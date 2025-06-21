@@ -26,7 +26,7 @@ def deploy_ipv4(userid):
         'ip': ip,
         'port': port,
         'user': 'root',
-        'password': 'lpnodes'
+        'password': 'dragoncloud'
     }
     data = load_data()
     data.setdefault(userid, []).append(vps_info)
